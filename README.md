@@ -1,12 +1,15 @@
 marginalize.sh - Add margins to research papers
 ===============================================
 
-I have recently started reading research papers on my iPad, and I use an Apple
-Pnecil and PDF Expert to take notes. Technically, that works well, but reseach
-papers don't have reasonably sized margins.
+Reading research papers on the iPad (using your favorite PDF app) has become
+pretty awesome, in particular with the ability to use the Apple Pencil to add
+notes.
 
-That's annoying since it disconnects the notes from the original text. Hence,
-enter `marginalize.sh`.
+The only drawback is that research papers do not have reasonably sized margins
+for that kind of use case. And that is since it either enforces very little
+note-taking or it disconnects the notes from the original text.
+
+`marginalize.sh` allows you to add the margin you need for your notes:
 
 ![Before and after](https://github.com/mkirchner/marginalize.sh/blob/master/doc/before_after.png)
 
