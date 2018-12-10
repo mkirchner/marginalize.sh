@@ -10,7 +10,8 @@ sized margins for that kind of use case. That is a quite unfortunate situation
 since it either limits note-taking or disconnects the notes from the original
 text.
 
-`marginalize.sh` allows you to add the margin you need for your notes:
+`marginalize.sh` is a simple shell script that allows you to add the margin you
+need for your notes.
 
 ![Before and after](https://github.com/mkirchner/marginalize.sh/blob/master/doc/before_after.png)
 
@@ -42,7 +43,7 @@ Comments
 
 Margin size must be specified in points (there are 72 points in an inch). If
 the user does not specify a margin size, the margin is set to `1/3 *
-pagewidth`, roughly mimicking the design of the [Tufte handout][tufte]
+pagewidth`, roughly mimicking the design of the [Tufte handout][tufte].
 
 ### Lefties!
 
@@ -52,5 +53,11 @@ If you're left-handed, you might want to try with the margin on the left:
                          -o girshick_15_fast-notes.pdf \
                          -l
 
-[tufte]: https://ctan.org/pkg/tufte-latex?lang=en
+### Credits
 
+Originally based on [HullCityFan852][hcf]'s [superuser post][su_post] about
+adding gutter to PDFs.
+
+[hcf]: https://superuser.com/users/388203/hullcityfan852
+[su_post]: https://superuser.com/questions/904332/add-gutter-binding-margin-to-existing-pdf-file
+[tufte]: https://ctan.org/pkg/tufte-latex?lang=en
