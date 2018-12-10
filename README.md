@@ -5,9 +5,10 @@ Reading research papers on the iPad (using your favorite PDF app) has become
 pretty awesome, in particular with the ability to use the Apple Pencil to add
 notes.
 
-The only drawback is that research papers do not have reasonably sized margins
-for that kind of use case. And that is since it either enforces very little
-note-taking or it disconnects the notes from the original text.
+The only drawback is that research papers generally do not have reasonably
+sized margins for that kind of use case. That is a quite unfortunate situation
+since it either limits note-taking or disconnects the notes from the original
+text.
 
 `marginalize.sh` allows you to add the margin you need for your notes:
 
