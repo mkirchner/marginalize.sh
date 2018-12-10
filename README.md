@@ -1,9 +1,12 @@
 marginalize.sh - Add margins to research papers
 ===============================================
 
-I like to take notes while reading research papers but reseach papers don't
-have reasonably sized margins. That's annoying since it disconnects the notes
-from the original text. Hence, enter `marginalize.sh`.
+I have recently started reading research papers on my iPad, and I use an Apple
+Pnecil and PDF Expert to take notes. Technically, that works well, but reseach
+papers don't have reasonably sized margins.
+
+That's annoying since it disconnects the notes from the original text. Hence,
+enter `marginalize.sh`.
 
 ![Before and after](https://github.com/mkirchner/marginalize.sh/blob/master/doc/before_after.png)
 
@@ -39,7 +42,7 @@ pagewidth`, roughly mimicking the design of the [Tufte handout][tufte]
 
 ### Lefties!
 
-If you're left-handed, you also might want the margin on the left:
+If you're left-handed, you might want to try with the margin on the left:
 
         $ marginalize.sh -i girshick_15_fast.pdf \
                          -o girshick_15_fast-notes.pdf \
